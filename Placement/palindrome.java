@@ -8,7 +8,7 @@ public static void main(String[] args) {
     if(res==num){
         System.out.println("palindrome number");
     }
-    else if(res==0){
+    else if(res==-1){
         System.out.println("not palindrome");
     }
     sc.close();
@@ -32,7 +32,7 @@ public static void main(String[] args) {
         return ans;
     }
     else{
-        return 0;
+        return -1;
     }
 
 }
